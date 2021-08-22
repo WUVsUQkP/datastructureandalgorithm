@@ -7,3 +7,4 @@ def bubble_sort(alist):
                 flag = False
         if flag:
             break
+    return alist

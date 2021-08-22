@@ -11,7 +11,7 @@ def bubble_sort(alist):
             if alist[i] > alist[i+1]:
                 swapped = True
                 alist[i],alist[i+1] = alist[i+1],alist[i]
-                flag = j
+                flag = i
         if not swapped:
             break
         border = flag
